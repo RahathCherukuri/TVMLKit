@@ -15,11 +15,17 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
 <document>
   <menuBarTemplate>
     <menuBar>
-      <menuItem template="${this.BASEURL}templates/Parade.xml.js" presentation="menuBarItemPresenter">
-        <title>Tab 1</title>
+      <menuItem template="${this.BASEURL}templates/Stack_Separator.xml.js" presentation="menuBarItemPresenter">
+        <title>Homes.com</title>
       </menuItem>
-      <menuItem template="${this.BASEURL}templates/Catalog.xml.js" presentation="menuBarItemPresenter">
-        <title>Tab 2</title>
+      <menuItem>
+        <title>Top Homes</title>
+      </menuItem>
+      <menuItem>
+        <title>Saved Homes</title>
+      </menuItem>
+      <menuItem template="${this.BASEURL}templates/Search.xml.js" presentation="menuBarItemPresenter">
+        <title>Search</title>
       </menuItem>
     </menuBar>
   </menuBarTemplate>
