@@ -65,15 +65,33 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
           </overlay>
         </lockup>
         <lockup>
-          <img src="${this.BASEURL}resources/newimages/Orange.jpg" width="300" height="150" />
+          <img src="${this.BASEURL}resources/newimages/Orange.jpg" width="308" height="150" />
           <overlay>
             <title>Beer Towns</title>
           </overlay>
         </lockup>
         <lockup>
-          <img src="${this.BASEURL}resources/newimages/bgBlack.jpg" width="300" height="150" />
+          <img src="${this.BASEURL}resources/newimages/bgBlack.jpg" width="308" height="150" />
           <overlay>
             <title>Permanent Vacation</title>
+          </overlay>
+        </lockup>
+        <lockup>
+          <img src="${this.BASEURL}resources/newimages/Orange.jpg" width="300" height="150"/>
+          <overlay>
+            <title>NFL Places</title>
+          </overlay>
+        </lockup>
+        <lockup>
+          <img src="${this.BASEURL}resources/newimages/bgBlack.jpg" width="300" height="150"/>
+          <overlay>
+            <title>BBQ Places</title>
+          </overlay>
+        </lockup>
+        <lockup>
+          <img src="${this.BASEURL}resources/newimages/Orange.jpg" width="308" height="150" />
+          <overlay>
+            <title>Somewhere Cool</title>
           </overlay>
         </lockup>
         </section>
@@ -98,7 +116,7 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
         <lockup>
           <img src="${this.BASEURL}resources/newimages/bigfoottop.jpg" width="308" height="308" />
           <overlay>
-            <title>BBQ Places</title>
+            <title>Scary Places</title>
           </overlay>
         </lockup>
         <lockup>
@@ -130,13 +148,19 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
           <title>Live Dangerously</title>
         </header>
         <section>
+        <lockup>
+          <img src="${this.BASEURL}resources/newimages/bigfoottop.jpg" width="308" height="308" />
+          <overlay>
+            <title>Scary Places</title>
+          </overlay>
+        </lockup>
           <lockup>
-            <img src="${this.BASEURL}resources/images/italy/italy_11_poster.jpg" width="420" height="375" />
-            <title class="showTextOnHighlight">Title 1</title>
+            <img src="${this.BASEURL}resources/newimages/ScaredSnakes.jpg" width="308" height="308" />
+            <title class="showTextOnHighlight">Scared of Snakes</title>
           </lockup>
           <lockup>
-            <img src="${this.BASEURL}resources/images/italy/italy_12_poster.jpg" width="420" height="375" />
-            <title class="showTextOnHighlight">Title 2</title>
+            <img src="${this.BASEURL}resources/newimages/Knights.jpg" width="308" height="308" />
+            <title class="showTextOnHighlight">Title 10</title>
           </lockup>
           <lockup>
             <img src="${this.BASEURL}resources/images/italy/italy_13_poster.jpg" width="420" height="375" />
@@ -154,22 +178,7 @@ var Template = function() { return `<?xml version="1.0" encoding="UTF-8" ?>
             <img src="${this.BASEURL}resources/images/italy/italy_16_poster.jpg" width="420" height="375" />
             <title class="showTextOnHighlight">Title 6</title>
           </lockup>
-          <lockup>
-            <img src="${this.BASEURL}resources/images/italy/italy_17_poster.jpg" width="420" height="375" />
-            <title class="showTextOnHighlight">Title 7</title>
-          </lockup>
-          <lockup>
-            <img src="${this.BASEURL}resources/images/italy/italy_18_poster.jpg" width="420" height="375" />
-            <title class="showTextOnHighlight">Title 8</title>
-          </lockup>
-          <lockup>
-            <img src="${this.BASEURL}resources/images/italy/italy_19_poster.jpg" width="420" height="375" />
-            <title class="showTextOnHighlight">Title 9</title>
-          </lockup>
-          <lockup>
-            <img src="${this.BASEURL}resources/images/italy/italy_20_poster.jpg" width="420" height="375" />
-            <title class="showTextOnHighlight">Title 10</title>
-          </lockup>
+
         </section>
       </shelf>
       <shelf>

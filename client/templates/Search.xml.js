@@ -20,37 +20,51 @@ var Template = function() {
       <collectionList>
         <shelf>
           <header>
-            <title>Results</title>
+            <title>Recent Searches</title>
           </header>
           <section>
-            <lockup>
-              <img src="${this.BASEURL}resources/images/movies/movie_1.lcr" width="350" height="520" />
-              <title>The Puffin</title>
-            </lockup>
-            <lockup>
-              <img src="${this.BASEURL}resources/images/movies/movie_2.lcr" width="350" height="520" />
-              <title>Lola and Max</title>
-            </lockup>
-            <lockup>
-              <img src="${this.BASEURL}resources/images/movies/movie_3.lcr" width="350" height="520" />
-              <title>Road to Firenze</title>
-            </lockup>
-            <lockup>
-              <img src="${this.BASEURL}resources/images/movies/movie_4.lcr" width="350" height="520" />
-              <title>Three Developers and a Baby</title>
-            </lockup>
-            <lockup>
-              <img src="${this.BASEURL}resources/images/movies/movie_5.lcr" width="350" height="520" />
-              <title>Santa Cruz Surf</title>
-            </lockup>
-            <lockup>
-              <img src="${this.BASEURL}resources/images/movies/movie_6.lcr" width="350" height="520" />
-              <title>Cinque Terre</title>
-            </lockup>
-            <lockup>
-              <img src="${this.BASEURL}resources/images/movies/movie_7.lcr" width="350" height="520" />
-              <title>Creatures of the Rainforest</title>
-            </lockup>
+          <lockup>
+            <img src="${this.BASEURL}resources/newimages/BBQ.jpg" width="308" height="308" />
+            <overlay>
+              <title>BBQ Places</title>
+            </overlay>
+          </lockup>
+          <lockup>
+            <img src="${this.BASEURL}resources/newimages/ScaredSnakes.jpg" width="308" height="308" />
+            <overlay>
+              <title>Scared Of Snakes</title>
+            </overlay>
+          </lockup>
+          <lockup>
+            <img src="${this.BASEURL}resources/newimages/beachtop.jpg" width="308" height="308" />
+            <overlay>
+              <title>Beach Top Places</title>
+            </overlay>
+          </lockup>
+          <lockup>
+            <img src="${this.BASEURL}resources/newimages/bigfoottop.jpg" width="308" height="308" />
+            <overlay>
+              <title>Scary Places</title>
+            </overlay>
+          </lockup>
+          <lockup>
+            <img src="${this.BASEURL}resources/newimages/Crossing.jpg" width="308" height="308" />
+            <overlay>
+              <title>Populous Places</title>
+            </overlay>
+          </lockup>
+          <lockup>
+            <img src="${this.BASEURL}resources/newimages/Knights.jpg" width="308" height="308" />
+            <overlay>
+              <title>Knight Riders</title>
+            </overlay>
+          </lockup>
+          <lockup>
+            <img src="${this.BASEURL}resources/newimages/Pool.jpg" width="308" height="308" />
+            <overlay>
+              <title>Homes with Pools</title>
+            </overlay>
+          </lockup>
           </section>
         </shelf>
       </collectionList>
